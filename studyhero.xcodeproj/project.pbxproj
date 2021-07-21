@@ -16,6 +16,7 @@
 		6EFAD9EB26A740550012E287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFAD9E926A740550012E287 /* LaunchScreen.storyboard */; };
 		6EFAD9F626A740560012E287 /* studyheroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFAD9F526A740560012E287 /* studyheroTests.swift */; };
 		6EFADA0126A740560012E287 /* studyheroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFADA0026A740560012E287 /* studyheroUITests.swift */; };
+		A83E748526A8923900E0997F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E748426A8923900E0997F /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6EFAD9FC26A740560012E287 /* studyheroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studyheroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFADA0026A740560012E287 /* studyheroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyheroUITests.swift; sourceTree = "<group>"; };
 		6EFADA0226A740560012E287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83E748426A8923900E0997F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				6EFAD9DB26A740540012E287 /* AppDelegate.swift */,
 				6EFAD9DD26A740540012E287 /* SceneDelegate.swift */,
 				6EFAD9DF26A740540012E287 /* ViewController.swift */,
+				A83E748426A8923900E0997F /* TimerViewController.swift */,
 				6EFAD9E126A740540012E287 /* Main.storyboard */,
 				6EFAD9E726A740550012E287 /* Assets.xcassets */,
 				6EFAD9E926A740550012E287 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83E748526A8923900E0997F /* TimerViewController.swift in Sources */,
 				6EFAD9E026A740540012E287 /* ViewController.swift in Sources */,
 				6EFAD9E626A740540012E287 /* studyhero.xcdatamodeld in Sources */,
 				6EFAD9DC26A740540012E287 /* AppDelegate.swift in Sources */,
