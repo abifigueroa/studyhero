@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ca7-35-LuJ">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -38,6 +38,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="4U6-0f-1Bf" kind="show" identifier="moveToComplete" id="cLX-yt-mRf"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EBA-Rv-hPK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -230,6 +233,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ca7-35-LuJ" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="iKS-gM-8jw"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fnm-ti-Lhb">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -289,7 +293,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="8mi-A5-9KW"/>
                     <connections>
-                        <outlet property="TitleToDo" destination="kdV-rj-rUP" id="j4R-BO-8Uq"/>
                         <outlet property="importantSwitch" destination="Lm8-lx-FoC" id="QXg-Ah-vXq"/>
                         <outlet property="titleTextField" destination="kdV-rj-rUP" id="OjH-ql-4cA"/>
                     </connections>
@@ -297,6 +300,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wOU-Zc-HPb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-533.84615384615381" y="737.91469194312788"/>
+        </scene>
+        <!--Complete To Do View Controller-->
+        <scene sceneID="WqB-Bs-15X">
+            <objects>
+                <viewController id="4U6-0f-1Bf" customClass="CompleteToDoViewController" customModule="studyhero" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="APt-jr-Ne0">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKJ-mx-q2B">
+                                <rect key="frame" x="144" y="307" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="mark complete"/>
+                                <connections>
+                                    <action selector="Completetapped:" destination="4U6-0f-1Bf" eventType="touchUpInside" id="uko-0D-LkG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To Do name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4z9-Qh-Tj3">
+                                <rect key="frame" x="144" y="177" width="98" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="B9K-TD-d0I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3P7-MR-YG3"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="4z9-Qh-Tj3" id="gYv-dL-VFa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oU4-5B-OaU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381.53846153846155" y="849.52606635071083"/>
         </scene>
     </scenes>
     <resources>
