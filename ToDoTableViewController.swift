@@ -9,13 +9,19 @@ import UIKit
 
 class ToDoTableViewController: UITableViewController {
     var listOfToDo : [ToDoClass] = []
+    
     func createToDo() -> [ ToDoClass ] {
         let swiftToDo = ToDoClass ()
         swiftToDo.description = "Learn Swift"
         swiftToDo.important = true
+        
         let dogToDo = ToDoClass()
              dogToDo.description = "Walk the Dog"
-        return [swiftToDo, dogToDo]
+        
+        let mathToDo = ToDoClass()
+             mathToDo.description = "Start on math project"
+        mathToDo.important = true
+        return [swiftToDo, dogToDo, mathToDo]
     
     }
     
@@ -25,27 +31,28 @@ class ToDoTableViewController: UITableViewController {
 
     }
 
-    // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return listOfToDo.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
+        let toDo = listOfToDo [indexPath.row]
+        
+        if toDo.important {
+            cell.textLabel?.text = "❗️" + toDo.description
+        }
+        else {
+            cell.textLabel?.text = toDo.description
+        }
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
