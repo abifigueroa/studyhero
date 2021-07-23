@@ -54,19 +54,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivh-a5-VtK">
-                                <rect key="frame" x="62" y="372" width="77" height="43"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Timer">
-                                        <attributes>
-                                            <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mY-XA-var">
-                                <rect key="frame" x="237" y="213" width="114" height="162"/>
+                                <rect key="frame" x="229" y="373" width="114" height="142"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="86"/>
                                 <state key="normal" title=" 🧠">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,45 +64,35 @@
                                     <segue destination="25j-KW-w87" kind="show" id="qMm-0S-zh3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAZ-RX-6yA">
-                                <rect key="frame" x="216" y="372" width="156" height="42.666666666666686"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAZ-RX-6yA">
+                                <rect key="frame" x="218" y="523" width="156" height="42.666666666666686"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Brain Break">
                                         <attributes>
-                                            <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="30" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHJ-vy-SKf">
-                                <rect key="frame" x="156" y="644" width="76" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHJ-vy-SKf">
+                                <rect key="frame" x="158" y="698" width="80.333333333333314" height="34.333333333333371"/>
                                 <attributedString key="attributedText">
                                     <fragment content="To-Do">
                                         <attributes>
-                                            <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
-                                            <font key="NSOriginalFont" size="30" name="ChalkboardSE-Regular"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ocj-Em-jT2">
-                                <rect key="frame" x="87" y="117" width="216" height="66"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Studyhero">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="46" name="ChalkboardSE-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSColor" red="1" green="0.98945467243514829" blue="0.96319873109737664" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="30" name="Baskerville"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RJ-Ay-34Y">
-                                <rect key="frame" x="36" y="227" width="129" height="127"/>
+                                <rect key="frame" x="47" y="368" width="129" height="127"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="127" id="RiR-yG-ABB"/>
                                     <constraint firstAttribute="width" constant="129" id="yKL-vl-oEi"/>
@@ -128,7 +107,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaI-sa-Bvb">
-                                <rect key="frame" x="143" y="476" width="104" height="127"/>
+                                <rect key="frame" x="146" y="546" width="104" height="127"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="127" id="rXk-vK-7Ca"/>
                                 </constraints>
@@ -140,30 +119,44 @@
                                     <segue destination="kfb-mT-8xR" kind="show" id="TV5-Ie-sDF"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Study Hero" translatesAutoresizingMaskIntoConstraints="NO" id="lga-Uu-x4U">
+                                <rect key="frame" x="27" y="96" width="347" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivh-a5-VtK">
+                                <rect key="frame" x="61" y="522" width="77" height="43"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Timer">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.98945467243514829" blue="0.96319873109737664" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="30" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="30" name="Baskerville"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.9950042517006803" green="0.98785135338010477" blue="0.91053709393349558" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.87768308080808077" green="0.71034271608537902" blue="0.42917720763030004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="sHJ-vy-SKf" firstAttribute="top" secondItem="oaI-sa-Bvb" secondAttribute="bottom" constant="30" id="0XB-cL-tOe"/>
-                            <constraint firstItem="tAZ-RX-6yA" firstAttribute="baseline" secondItem="ivh-a5-VtK" secondAttribute="baseline" constant="-0.33333333333331439" id="BPv-Wv-zzY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0mY-XA-var" secondAttribute="trailing" constant="39" id="EJq-e5-r6e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tAZ-RX-6yA" secondAttribute="bottom" constant="352.33333333333331" id="I8t-ET-n1H"/>
-                            <constraint firstItem="0mY-XA-var" firstAttribute="top" secondItem="Ocj-Em-jT2" secondAttribute="bottom" constant="30" id="TbG-MG-v6A"/>
-                            <constraint firstItem="7RJ-Ay-34Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="227" id="Umo-LX-aWs"/>
-                            <constraint firstItem="Ocj-Em-jT2" firstAttribute="centerX" secondItem="oaI-sa-Bvb" secondAttribute="centerX" id="XAl-KF-k8l"/>
+                            <constraint firstItem="sHJ-vy-SKf" firstAttribute="top" secondItem="oaI-sa-Bvb" secondAttribute="bottom" constant="25" id="0XB-cL-tOe"/>
+                            <constraint firstItem="tAZ-RX-6yA" firstAttribute="baseline" secondItem="ivh-a5-VtK" secondAttribute="baseline" constant="0.66666666666674246" id="BPv-Wv-zzY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0mY-XA-var" secondAttribute="trailing" constant="47" id="EJq-e5-r6e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tAZ-RX-6yA" secondAttribute="bottom" constant="201.33333333333326" id="I8t-ET-n1H"/>
+                            <constraint firstItem="7RJ-Ay-34Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="368" id="Umo-LX-aWs"/>
+                            <constraint firstItem="oaI-sa-Bvb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="a3t-sa-Pyt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sHJ-vy-SKf" secondAttribute="trailing" symbolic="YES" id="bkJ-Io-54c"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7RJ-Ay-34Y" secondAttribute="bottom" constant="413" id="cGM-t1-3Od"/>
-                            <constraint firstItem="0mY-XA-var" firstAttribute="leading" secondItem="7RJ-Ay-34Y" secondAttribute="trailing" constant="72" id="cd3-ko-zb7"/>
-                            <constraint firstItem="0mY-XA-var" firstAttribute="centerX" secondItem="tAZ-RX-6yA" secondAttribute="centerX" id="e9g-89-Zqu"/>
-                            <constraint firstItem="sHJ-vy-SKf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="hwt-e1-YDL"/>
-                            <constraint firstItem="Ocj-Em-jT2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iKR-QL-Zwa"/>
-                            <constraint firstItem="Ocj-Em-jT2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="117" id="q72-ri-OOV"/>
-                            <constraint firstItem="oaI-sa-Bvb" firstAttribute="top" secondItem="0mY-XA-var" secondAttribute="bottom" constant="101" id="rrr-9x-gOw"/>
-                            <constraint firstItem="7RJ-Ay-34Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="uzF-ld-lcD"/>
-                            <constraint firstAttribute="bottom" secondItem="oaI-sa-Bvb" secondAttribute="bottom" constant="187" id="y6L-fM-rSq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7RJ-Ay-34Y" secondAttribute="trailing" constant="225" id="ydJ-dQ-leF"/>
-                            <constraint firstItem="ivh-a5-VtK" firstAttribute="centerX" secondItem="7RJ-Ay-34Y" secondAttribute="centerX" id="zkr-da-kcf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7RJ-Ay-34Y" secondAttribute="bottom" constant="272" id="cGM-t1-3Od"/>
+                            <constraint firstItem="0mY-XA-var" firstAttribute="leading" secondItem="7RJ-Ay-34Y" secondAttribute="trailing" constant="53" id="cd3-ko-zb7"/>
+                            <constraint firstItem="0mY-XA-var" firstAttribute="centerX" secondItem="tAZ-RX-6yA" secondAttribute="centerX" constant="-10" id="e9g-89-Zqu"/>
+                            <constraint firstItem="sHJ-vy-SKf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="158" id="hwt-e1-YDL"/>
+                            <constraint firstItem="oaI-sa-Bvb" firstAttribute="top" secondItem="0mY-XA-var" secondAttribute="bottom" constant="31" id="rrr-9x-gOw"/>
+                            <constraint firstItem="7RJ-Ay-34Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="uzF-ld-lcD"/>
+                            <constraint firstAttribute="bottom" secondItem="oaI-sa-Bvb" secondAttribute="bottom" constant="117" id="y6L-fM-rSq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7RJ-Ay-34Y" secondAttribute="trailing" constant="214" id="ydJ-dQ-leF"/>
+                            <constraint firstItem="ivh-a5-VtK" firstAttribute="centerX" secondItem="7RJ-Ay-34Y" secondAttribute="centerX" constant="-12" id="zkr-da-kcf"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2Ta-pl-mnr"/>
@@ -180,21 +173,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGl-H8-xeA">
-                                <rect key="frame" x="72" y="385" width="72" height="55"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
-                                <state key="normal" title="Start"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IGl-H8-xeA">
+                                <rect key="frame" x="95" y="384" width="59" height="46.333333333333314"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Start">
+                                            <attributes>
+                                                <font key="NSFont" size="30" name="Baskerville"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="startStopTapped:" destination="DXe-CO-mEW" eventType="touchUpInside" id="rjr-Wt-cuy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wy0-BO-zPL">
-                                <rect key="frame" x="236" y="385" width="77" height="55"/>
+                                <rect key="frame" x="241" y="385" width="66" height="46.333333333333314"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Reset">
                                             <attributes>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -203,25 +205,8 @@
                                     <action selector="resetTapped:" destination="DXe-CO-mEW" eventType="touchUpInside" id="aUk-SA-LS7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZqT-f1-LcG">
-                                <rect key="frame" x="107.66666666666669" y="512" width="173" height="62"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Home Page">
-                                            <attributes>
-                                                <font key="NSFont" size="35" name="ChalkboardSE-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="xDb-JY-xle"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75y-kw-eax">
-                                <rect key="frame" x="73" y="300" width="244" height="66"/>
+                                <rect key="frame" x="80" y="275" width="244" height="66"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00:00:00">
                                         <attributes>
@@ -232,22 +217,37 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZqT-f1-LcG">
+                                <rect key="frame" x="53" y="522.66666666666663" width="285" height="111"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Home Page">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="35" name="Baskerville"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="xDb-JY-xle"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7fy-jw-gHw"/>
                         <color key="backgroundColor" red="0.83295962159052284" green="0.90237227680414522" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="IGl-H8-xeA" firstAttribute="top" secondItem="9ts-BS-f25" secondAttribute="top" constant="385" id="2Zu-Qk-cQg"/>
-                            <constraint firstItem="IGl-H8-xeA" firstAttribute="baseline" secondItem="Wy0-BO-zPL" secondAttribute="baseline" id="7cJ-oG-Ctn"/>
-                            <constraint firstItem="75y-kw-eax" firstAttribute="top" secondItem="7fy-jw-gHw" secondAttribute="top" constant="290" id="8Yz-3H-kjr"/>
-                            <constraint firstItem="IGl-H8-xeA" firstAttribute="leading" secondItem="7fy-jw-gHw" secondAttribute="leading" constant="72" id="Cge-S1-RLC"/>
-                            <constraint firstItem="75y-kw-eax" firstAttribute="centerX" secondItem="ZqT-f1-LcG" secondAttribute="centerX" id="EJk-3O-U6f"/>
-                            <constraint firstItem="Wy0-BO-zPL" firstAttribute="leading" secondItem="IGl-H8-xeA" secondAttribute="trailing" constant="92" id="J4y-k4-2XM"/>
-                            <constraint firstItem="IGl-H8-xeA" firstAttribute="top" secondItem="75y-kw-eax" secondAttribute="bottom" constant="29" id="RlB-KC-OOY"/>
-                            <constraint firstItem="ZqT-f1-LcG" firstAttribute="top" secondItem="IGl-H8-xeA" secondAttribute="bottom" constant="72" id="WKd-Pp-DOm"/>
-                            <constraint firstItem="75y-kw-eax" firstAttribute="trailing" secondItem="Wy0-BO-zPL" secondAttribute="trailing" constant="3" id="anj-i2-VIT"/>
-                            <constraint firstItem="IGl-H8-xeA" firstAttribute="top" secondItem="75y-kw-eax" secondAttribute="bottom" constant="29" id="dpc-Kn-saF"/>
-                            <constraint firstItem="75y-kw-eax" firstAttribute="leading" secondItem="7fy-jw-gHw" secondAttribute="leading" constant="72" id="hYW-uo-vwc"/>
-                            <constraint firstItem="75y-kw-eax" firstAttribute="top" secondItem="7fy-jw-gHw" secondAttribute="top" constant="290" id="iCB-1K-X5b"/>
+                            <constraint firstItem="IGl-H8-xeA" firstAttribute="top" secondItem="9ts-BS-f25" secondAttribute="top" constant="384" id="2Zu-Qk-cQg"/>
+                            <constraint firstItem="IGl-H8-xeA" firstAttribute="baseline" secondItem="Wy0-BO-zPL" secondAttribute="baseline" constant="-1" id="7cJ-oG-Ctn"/>
+                            <constraint firstItem="IGl-H8-xeA" firstAttribute="leading" secondItem="7fy-jw-gHw" secondAttribute="leading" constant="95" id="Cge-S1-RLC"/>
+                            <constraint firstItem="75y-kw-eax" firstAttribute="centerX" secondItem="ZqT-f1-LcG" secondAttribute="centerX" constant="6.5" id="EJk-3O-U6f"/>
+                            <constraint firstItem="Wy0-BO-zPL" firstAttribute="leading" secondItem="IGl-H8-xeA" secondAttribute="trailing" constant="87" id="J4y-k4-2XM"/>
+                            <constraint firstItem="IGl-H8-xeA" firstAttribute="top" secondItem="75y-kw-eax" secondAttribute="bottom" constant="43" id="RlB-KC-OOY"/>
+                            <constraint firstItem="ZqT-f1-LcG" firstAttribute="top" secondItem="IGl-H8-xeA" secondAttribute="bottom" constant="90.666666666666686" id="WKd-Pp-DOm"/>
+                            <constraint firstItem="75y-kw-eax" firstAttribute="trailing" secondItem="Wy0-BO-zPL" secondAttribute="trailing" constant="17" id="anj-i2-VIT"/>
+                            <constraint firstItem="IGl-H8-xeA" firstAttribute="top" secondItem="75y-kw-eax" secondAttribute="bottom" constant="43" id="dpc-Kn-saF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QuR-Uj-oXy"/>
@@ -289,12 +289,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAs-sh-UbM">
-                                <rect key="frame" x="170" y="114" width="67" height="43"/>
+                                <rect key="frame" x="170" y="114" width="65" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Title:">
                                         <attributes>
-                                            <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="30" name="Baskerville"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -307,12 +307,12 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AL0-l1-I5J">
-                                <rect key="frame" x="149" y="333" width="108" height="36"/>
+                                <rect key="frame" x="149" y="333" width="101" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="important">
                                         <attributes>
-                                            <font key="NSFont" size="25" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="25" name="Baskerville"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -330,7 +330,8 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Add">
                                             <attributes>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -367,8 +368,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="To Do name">
                                         <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="26" name="ChalkboardSE-Regular"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="26" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -378,13 +379,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fKJ-mx-q2B">
                                 <rect key="frame" x="96" y="307.66666666666652" width="204" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.86666666670000003" green="0.64581066440000001" blue="0.30661496469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" backgroundImage="rectangle" catalog="system">
                                     <attributedString key="attributedTitle">
                                         <fragment content="mark complete">
                                             <attributes>
                                                 <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="20" name="Baskerville"/>
+                                                <font key="NSOriginalFont" size="20" name="Baskerville"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -394,14 +396,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sQ9-sj-uPf">
-                                <rect key="frame" x="109" y="483" width="173" height="62"/>
+                                <rect key="frame" x="116" y="494" width="165" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Home Page">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="35" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="35" name="Baskerville"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -412,7 +414,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="B9K-TD-d0I"/>
-                        <color key="backgroundColor" red="0.95851423836982319" green="1" blue="0.90282525109964107" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.89352185290308395" green="0.96851998567581177" blue="0.96071228553775545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="3P7-MR-YG3"/>
                     <connections>
@@ -438,40 +440,24 @@
                                     <fragment content="Need help figuring out what to do? Take this quiz to find out!">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="33" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="33" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UTV-C3-VH2">
-                                <rect key="frame" x="107" y="368" width="176" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Click to Play!">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="G1z-dp-GZn" kind="show" id="YqK-7x-Oho"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tu3-3d-7pP">
-                                <rect key="frame" x="109" y="599" width="173" height="62"/>
+                                <rect key="frame" x="103" y="600" width="186" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Home Page">
                                             <attributes>
-                                                <font key="NSFont" size="35" name="ChalkboardSE-Regular"/>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="35" name="AvenirNext-Regular"/>
+                                                <font key="NSOriginalFont" size="35" name="AvenirNext-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -481,9 +467,28 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="sgQ-C9-EUk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UTV-C3-VH2">
+                                <rect key="frame" x="75" y="386.66666666666652" width="241" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" backgroundImage="rectangle" catalog="system">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click to Play!">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Baskerville"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="G1z-dp-GZn" kind="show" id="YqK-7x-Oho"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nJe-ez-zuO"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93733582337953403" green="0.90020554886424131" blue="0.97503662109375" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="CEv-0N-5c2"/>
                 </viewController>
@@ -505,7 +510,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="What is your favorite Band?">
                                         <attributes>
-                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="40" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -513,14 +518,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rrt-7M-M5Y">
-                                <rect key="frame" x="102" y="283" width="193" height="55"/>
+                                <rect key="frame" x="97" y="288" width="208" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Fifth Harmony">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="0.9805775600388329" blue="0.99338331463902463" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -528,14 +534,15 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Efc-dv-z4X">
-                                <rect key="frame" x="171" y="365" width="52" height="55"/>
+                                <rect key="frame" x="168" y="369" width="59" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="BTS">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="0.9805775600388329" blue="0.99338331463902463" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -543,14 +550,15 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ee-un-MeU">
-                                <rect key="frame" x="105" y="473" width="186" height="55"/>
+                                <rect key="frame" x="100" y="477" width="197" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="One Direction">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="0.9805775600388329" blue="0.99338331463902463" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -558,14 +566,15 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hMP-F9-JZk">
-                                <rect key="frame" x="132" y="575" width="132" height="55"/>
+                                <rect key="frame" x="130" y="579" width="138" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Little Mix">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="0.9805775600388329" blue="0.99338331463902463" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -621,7 +630,8 @@
                                     <fragment content="Grab a book and be ready to get lost into a world of knowledge and imagination!">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="25" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="25" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="25" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -654,7 +664,7 @@
                                     <fragment content="You should read a book!">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="40" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -704,7 +714,8 @@
                                     <fragment content="Yoga is a fun and relaxing exercise that is enjoyed by millions of people across around the world!">
                                         <attributes>
                                             <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="25" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="25" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="25" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -717,7 +728,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="You should do yoga!">
                                         <attributes>
-                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="40" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="40" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -773,7 +785,8 @@
                                     <fragment content="Do your nails! Take a relaxing shower! Having fun doing your makeup! Do anything that you enjoy!!!">
                                         <attributes>
                                             <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="25" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="25" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="25" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -786,7 +799,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="You should treat yourself!">
                                         <attributes>
-                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="40" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="40" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -841,7 +855,8 @@
                                     <fragment content="Grab an empty journal and just start writing anything that comes to your mind!">
                                         <attributes>
                                             <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="25" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="25" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="25" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -854,7 +869,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="You should journal!">
                                         <attributes>
-                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="40" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="40" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -903,7 +919,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="What is your favorite Color?">
                                         <attributes>
-                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="40" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -917,8 +933,9 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Pink">
                                             <attributes>
-                                                <color key="NSColor" red="1" green="0.58608539785264291" blue="0.9624313396821691" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <color key="NSColor" red="1" green="0.72934335585266263" blue="0.7676262497745453" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -926,14 +943,15 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hmA-oM-YDr">
-                                <rect key="frame" x="162" y="368" width="57" height="55"/>
+                                <rect key="frame" x="159" y="372" width="63" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Blue">
                                             <attributes>
                                                 <color key="NSColor" red="0.28381965962735511" green="0.34724097248309527" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -941,14 +959,15 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6QX-e8-98L">
-                                <rect key="frame" x="155" y="470" width="80" height="55"/>
+                                <rect key="frame" x="153" y="474" width="85" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Green">
                                             <attributes>
                                                 <color key="NSColor" red="0.43125836214055635" green="0.78095407196969702" blue="0.39291990946902416" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -974,14 +993,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eEv-iY-byl">
-                                <rect key="frame" x="169" y="558" width="52" height="55"/>
+                                <rect key="frame" x="167" y="562" width="56" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Red">
                                             <attributes>
                                                 <color key="NSColor" red="0.82256155303030298" green="0.38957086366277732" blue="0.36660802712768253" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1012,7 +1032,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="What is your favorite Animal?">
                                         <attributes>
-                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="40" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="40" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1045,7 +1066,8 @@
                                         <fragment content="Dog">
                                             <attributes>
                                                 <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1053,14 +1075,15 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="laU-Vv-jH1">
-                                <rect key="frame" x="152" y="371" width="86" height="48"/>
+                                <rect key="frame" x="131" y="370" width="129" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Bunny">
                                             <attributes>
                                                 <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1068,14 +1091,15 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nNT-cY-rVI">
-                                <rect key="frame" x="152" y="452" width="86" height="48"/>
+                                <rect key="frame" x="142" y="461" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Turtle">
                                             <attributes>
                                                 <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1083,14 +1107,15 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pjv-E5-y5n">
-                                <rect key="frame" x="152" y="546" width="86" height="48"/>
+                                <rect key="frame" x="147" y="547" width="86" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Lion">
                                             <attributes>
                                                 <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1121,7 +1146,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="What is your favorite Movie?">
                                         <attributes>
-                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
+                                            <font key="NSFont" size="40" name="Baskerville"/>
+                                            <font key="NSOriginalFont" size="40" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1136,7 +1162,8 @@
                                         <fragment content="The Avengers">
                                             <attributes>
                                                 <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1147,14 +1174,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHa-tE-mbk">
-                                <rect key="frame" x="152" y="358" width="99" height="74"/>
+                                <rect key="frame" x="131" y="366" width="129" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Titanic">
                                             <attributes>
                                                 <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1162,24 +1190,6 @@
                                 </state>
                                 <connections>
                                     <segue destination="DeD-UU-XVb" kind="show" id="4J3-8M-i6t"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdQ-k1-UVp">
-                                <rect key="frame" x="116" y="440" width="151" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Mean Girls">
-                                            <attributes>
-                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="PcV-yi-xKr" kind="show" id="LQ6-0B-L40"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B5y-T8-jKN">
@@ -1190,7 +1200,8 @@
                                         <fragment content="Soul">
                                             <attributes>
                                                 <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1198,6 +1209,25 @@
                                 </state>
                                 <connections>
                                     <segue destination="42b-zt-8mk" kind="show" id="ABE-WI-w1a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdQ-k1-UVp">
+                                <rect key="frame" x="96" y="448" width="206" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Mean Girls">
+                                            <attributes>
+                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="30" name="Baskerville-SemiBold"/>
+                                                <font key="NSOriginalFont" size="30" name="Baskerville-SemiBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="PcV-yi-xKr" kind="show" id="LQ6-0B-L40"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1212,7 +1242,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="GFf-qr-tfd"/>
+        <segue reference="Fgk-ad-hq1"/>
+        <segue reference="qMm-0S-zh3"/>
         <segue reference="xDb-JY-xle"/>
         <segue reference="TV5-Ie-sDF"/>
     </inferredMetricsTieBreakers>
@@ -1220,13 +1251,11 @@
         <image name="Books" width="2086" height="1380"/>
         <image name="Journal" width="1378" height="1376"/>
         <image name="SelfCare" width="1380" height="1374"/>
+        <image name="Study Hero" width="500" height="500"/>
         <image name="Yoga" width="1288" height="682"/>
         <image name="rectangle" catalog="system" width="128" height="93"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
