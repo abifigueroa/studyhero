@@ -10,26 +10,32 @@ import UIKit
 class CompleteToDoViewController: UIViewController {
     var PreviousVC = ToDoTableViewController ()
     
-    var selectedToDo : ToDoCD?
+    var selectedToDo = ToDoClass()
+    
     @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleLabel.text = selectedToDo?.description
+        titleLabel.text = selectedToDo.description
 
         // Do any additional setup after loading the view.
     }
     
     @IBAction func Completetapped(_ sender: Any) {
-        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
-            if let theToDo = selectedToDo {
-              context.delete(theToDo)
-              navigationController?.popViewController(animated: true)
-            }
+        showAlert()
           }
-        }
+    func showAlert() {
+        let alert = UIAlertController(title: "You completed a task!", message: "Great job! Remember, hard work and determination will really pay off", preferredStyle:.alert)
+        alert.addAction(UIAlertAction(title: "Thank You!", style: .cancel, handler: { action in
+            print("tapped Thank You!")
+        }))
+        present(alert, animated: true)
     }
+    func showActionSheet() {
+        
+        }
+    
     
     /*
     // MARK: - Navigation
@@ -42,3 +48,4 @@ class CompleteToDoViewController: UIViewController {
     */
 
 
+}
