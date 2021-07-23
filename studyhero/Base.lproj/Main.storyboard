@@ -65,8 +65,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mY-XA-var">
-                                <rect key="frame" x="237" y="218" width="114" height="162"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mY-XA-var">
+                                <rect key="frame" x="237" y="213" width="114" height="162"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="86"/>
                                 <state key="normal" title=" 🧠">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,21 +75,8 @@
                                     <segue destination="25j-KW-w87" kind="show" id="qMm-0S-zh3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaI-sa-Bvb">
-                                <rect key="frame" x="143" y="477" width="104" height="127"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="127" id="rXk-vK-7Ca"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="96"/>
-                                <state key="normal" title="📋">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="kfb-mT-8xR" kind="show" id="TV5-Ie-sDF"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAZ-RX-6yA">
-                                <rect key="frame" x="216" y="383.33333333333331" width="156" height="42.666666666666686"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAZ-RX-6yA">
+                                <rect key="frame" x="216" y="372" width="156" height="42.666666666666686"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Brain Break">
                                         <attributes>
@@ -125,8 +112,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RJ-Ay-34Y">
-                                <rect key="frame" x="36" y="218" width="129" height="127"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RJ-Ay-34Y">
+                                <rect key="frame" x="36" y="227" width="129" height="127"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="127" id="RiR-yG-ABB"/>
                                     <constraint firstAttribute="width" constant="129" id="yKL-vl-oEi"/>
@@ -138,6 +125,19 @@
                                 </state>
                                 <connections>
                                     <segue destination="DXe-CO-mEW" kind="show" id="Fgk-ad-hq1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaI-sa-Bvb">
+                                <rect key="frame" x="143" y="476" width="104" height="127"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="rXk-vK-7Ca"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="96"/>
+                                <state key="normal" title="📋">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kfb-mT-8xR" kind="show" id="TV5-Ie-sDF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -473,6 +473,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Fifth Harmony">
                                             <attributes>
+                                                <color key="NSColor" red="1" green="0.9805775600388329" blue="0.99338331463902463" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -487,6 +488,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="BTS">
                                             <attributes>
+                                                <color key="NSColor" red="1" green="0.9805775600388329" blue="0.99338331463902463" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -495,12 +497,13 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ee-un-MeU">
-                                <rect key="frame" x="179" y="473" width="37" height="55"/>
+                                <rect key="frame" x="105" y="473" width="186" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="1D">
+                                        <fragment content="One Direction">
                                             <attributes>
+                                                <color key="NSColor" red="1" green="0.9805775600388329" blue="0.99338331463902463" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -515,6 +518,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Little Mix">
                                             <attributes>
+                                                <color key="NSColor" red="1" green="0.9805775600388329" blue="0.99338331463902463" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -529,6 +533,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Next Question -&gt;">
                                             <attributes>
+                                                <color key="NSColor" red="0.004358678430944069" green="0.0043376220134032769" blue="0.0043797348484848619" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -541,7 +546,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A1M-Br-ocq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.79212736900000003" green="0.64477874059999996" blue="0.69005148100000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Y4D-LN-0sv"/>
                 </viewController>
@@ -558,11 +563,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Books" translatesAutoresizingMaskIntoConstraints="NO" id="8lz-hc-rYG">
-                                <rect key="frame" x="75" y="212" width="240" height="128"/>
+                                <rect key="frame" x="75" y="310" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RCi-pL-jHW">
-                                <rect key="frame" x="75" y="443" width="240" height="152"/>
+                                <rect key="frame" x="75" y="511" width="240" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
@@ -577,7 +582,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7c-ut-Rf4">
-                                <rect key="frame" x="38" y="37" width="315" height="119"/>
+                                <rect key="frame" x="38" y="109" width="315" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="You should read a book!">
@@ -609,11 +614,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yoga" translatesAutoresizingMaskIntoConstraints="NO" id="7w9-GM-SLc">
-                                <rect key="frame" x="75" y="218" width="240" height="128"/>
+                                <rect key="frame" x="75" y="304" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOC-0M-vSc">
-                                <rect key="frame" x="75" y="449" width="240" height="221"/>
+                                <rect key="frame" x="75" y="480" width="240" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
@@ -628,7 +633,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94C-2k-NGm">
-                                <rect key="frame" x="47" y="38" width="296" height="122"/>
+                                <rect key="frame" x="47" y="122" width="296" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="You should do yoga!">
@@ -658,25 +663,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPw-iy-vHL">
-                                <rect key="frame" x="52" y="33" width="307" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="You should treat yourself!">
-                                        <attributes>
-                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SelfCare" translatesAutoresizingMaskIntoConstraints="NO" id="733-Pk-o1A">
-                                <rect key="frame" x="75" y="214" width="240" height="128"/>
+                                <rect key="frame" x="75" y="300" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Uw-5D-6zX">
-                                <rect key="frame" x="75" y="448" width="240" height="230"/>
+                                <rect key="frame" x="75" y="467" width="240" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
@@ -690,6 +682,19 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPw-iy-vHL">
+                                <rect key="frame" x="53" y="129" width="307" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="You should treat yourself!">
+                                        <attributes>
+                                            <font key="NSFont" size="40" name="ChalkboardSE-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KQz-Up-m4E"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -709,11 +714,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Journal" translatesAutoresizingMaskIntoConstraints="NO" id="Tny-qY-iOy">
-                                <rect key="frame" x="75" y="218" width="240" height="128"/>
+                                <rect key="frame" x="75" y="295" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4QE-k6-pbm">
-                                <rect key="frame" x="75" y="444" width="240" height="195"/>
+                                <rect key="frame" x="75" y="487" width="240" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
@@ -728,7 +733,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqz-1j-5AT">
-                                <rect key="frame" x="62" y="35" width="266" height="123"/>
+                                <rect key="frame" x="62" y="123" width="266" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="You should journal!">
@@ -778,6 +783,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Pink">
                                             <attributes>
+                                                <color key="NSColor" red="1" green="0.58608539785264291" blue="0.9624313396821691" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -792,6 +798,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Blue">
                                             <attributes>
+                                                <color key="NSColor" red="0.28381965962735511" green="0.34724097248309527" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -806,6 +813,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Green">
                                             <attributes>
+                                                <color key="NSColor" red="0.43125836214055635" green="0.78095407196969702" blue="0.39291990946902416" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -820,6 +828,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Next Question -&gt;">
                                             <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -837,6 +846,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Red">
                                             <attributes>
+                                                <color key="NSColor" red="0.82256155303030298" green="0.38957086366277732" blue="0.36660802712768253" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -846,7 +856,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bSA-YD-1E8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93025449490000001" green="0.86217351099999995" blue="0.82339544360000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="GbR-ki-R72"/>
                 </viewController>
@@ -882,6 +892,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Next Question -&gt;">
                                             <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -899,6 +910,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Dog">
                                             <attributes>
+                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -913,6 +925,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Bunny">
                                             <attributes>
+                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -927,6 +940,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Turtle">
                                             <attributes>
+                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -941,6 +955,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Lion">
                                             <attributes>
+                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -950,7 +965,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z3I-8Y-NCr"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.58893271702574523" green="0.6206649541007998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="smg-of-ch7"/>
                 </viewController>
@@ -986,6 +1001,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="The Avengers">
                                             <attributes>
+                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -1003,6 +1019,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Titanic">
                                             <attributes>
+                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -1020,6 +1037,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Mean Girls">
                                             <attributes>
+                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -1037,6 +1055,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Soul">
                                             <attributes>
+                                                <color key="NSColor" red="0.96532140219486817" green="0.95403103484832785" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="30" name="ChalkboardSE-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -1049,7 +1068,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="L4r-x1-hKb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93025449490000001" green="0.78543031370000005" blue="0.69005148100000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="4nx-QE-kUF"/>
                 </viewController>
